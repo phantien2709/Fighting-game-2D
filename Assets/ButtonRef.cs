@@ -1,18 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
+[System.Serializable]
 public class ButtonRef : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    public GameObject selectIndicator;
+
+    public bool selected;
+
     void Start()
     {
-        
+        selectIndicator.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        selectIndicator.SetActive(selected);
     }
 }
