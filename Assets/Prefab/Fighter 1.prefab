@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 7574884394099326569}
   - component: {fileID: 7175683272331051925}
   - component: {fileID: 7360507425368518618}
+  - component: {fileID: 7021800984575921842}
   m_Layer: 0
   m_Name: Fighter 1
   m_TagString: Untagged
@@ -350,3 +351,33 @@ MonoBehaviour:
   player1: {fileID: 7519584478101241247}
   player2: {fileID: 0}
   ground: {fileID: 0}
+--- !u!114 &7021800984575921842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7519584478101241247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac5f30f7d66e794ab0c468708818f85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  horizontal: 0
+  vertical: 0
+  attack1: 0
+  attack2: 0
+  attack3: 0
+  crouch: 0
+  canAttack: 1
+  gettingHit: 0
+  currentlyAttacking: 0
+  dontMove: 0
+  onGround: 1
+  lookRight: 0
+  healthSlider: {fileID: 0}
+  handleDC: {fileID: 0}
+  handleAnim: {fileID: 0}
+  handleMovement: {fileID: 0}
+  movementColliders: []

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8134442340401836094}
   - component: {fileID: 1076965207900786795}
   m_Layer: 0
-  m_Name: CharaterManager
+  m_Name: CharacterManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48,14 +48,14 @@ MonoBehaviour:
   solo: 0
   numberOfUsers: 0
   players:
-  - playerId: Fighter 1
+  - playerId: P1
     inputId: 
     playerType: 0
     hasCharacter: 0
     playerPrefab: {fileID: 0}
     playerStates: {fileID: 0}
     score: 0
-  - playerId: Fighter 2
+  - playerId: P2
     inputId: 1
     playerType: 1
     hasCharacter: 0
@@ -63,11 +63,11 @@ MonoBehaviour:
     playerStates: {fileID: 0}
     score: 0
   characterList:
-  - charId: 
-    prefab: {fileID: 0}
+  - charId: fighter1
+    prefab: {fileID: 7519584478101241247, guid: 6825958e16e6bb04f873b1c4aa57aad6, type: 3}
     icon: {fileID: 0}
-  - charId: 
-    prefab: {fileID: 0}
+  - charId: fighter2
+    prefab: {fileID: 4938019931235474388, guid: 5c422999ffe1b4146beecddd50c3cd30, type: 3}
     icon: {fileID: 0}
 --- !u!114 &1076965207900786795
 MonoBehaviour:
@@ -81,8 +81,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37477e131c05d941979cfb01593b224, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  progressionStages: 5
-  levels: []
-  mainScenes: []
+  progressionStages: 2
+  levels:
+  - newgame
+  mainScenes:
+  - levelId: MainMenu
+  - levelId: select
+  - levelId: gameover
   progIndex: 0
   progression: []

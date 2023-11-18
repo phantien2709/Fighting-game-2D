@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1356527008254328087}
   - component: {fileID: 4521488960726803293}
   - component: {fileID: 8643222252442251124}
+  - component: {fileID: -3040720488943927933}
   m_Layer: 7
   m_Name: Fighter 2
   m_TagString: Untagged
@@ -199,3 +200,33 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-3040720488943927933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4938019931235474388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac5f30f7d66e794ab0c468708818f85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  horizontal: 0
+  vertical: 0
+  attack1: 0
+  attack2: 0
+  attack3: 0
+  crouch: 0
+  canAttack: 1
+  gettingHit: 1
+  currentlyAttacking: 0
+  dontMove: 1
+  onGround: 1
+  lookRight: 1
+  healthSlider: {fileID: 0}
+  handleDC: {fileID: 0}
+  handleAnim: {fileID: 0}
+  handleMovement: {fileID: 0}
+  movementColliders: []
